@@ -1,0 +1,90 @@
+{
+ "creation": "2021-03-04 12:57:02.116383",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "quotation",
+  "sales_order",
+  "dunning",
+  "column_break_4",
+  "sales_invoice",
+  "delivery_note",
+  "section_break_8",
+  "create_pdf_in_background"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Active"
+  },
+  {
+   "default": "0",
+   "fieldname": "quotation",
+   "fieldtype": "Check",
+   "label": "Quotation"
+  },
+  {
+   "default": "0",
+   "fieldname": "sales_order",
+   "fieldtype": "Check",
+   "label": "Sales Order"
+  },
+  {
+   "default": "0",
+   "fieldname": "dunning",
+   "fieldtype": "Check",
+   "label": "Dunning"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sales_invoice",
+   "fieldtype": "Check",
+   "label": "Sales Invoice"
+  },
+  {
+   "default": "0",
+   "fieldname": "delivery_note",
+   "fieldtype": "Check",
+   "label": "Delivery Note"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "create_pdf_in_background",
+   "fieldtype": "Check",
+   "label": "Create PDF In Background"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-03-04 17:25:02.600841",
+ "modified_by": "Administrator",
+ "module": "Erpnext Sms Invoice",
+ "name": "SMS Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
