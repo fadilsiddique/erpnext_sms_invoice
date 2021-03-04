@@ -1,6 +1,6 @@
 ## Erpnext Sms Invoice
 
-SMS Invoice
+Send Sales Invoice link via SMS
 
 #### License
 
